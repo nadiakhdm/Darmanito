@@ -33,9 +33,13 @@ background-repeat: no-repeat;
 /* height:490px */
 }
 .bground-two{
-  background-image: url("assets/Image/15.png");
-  background-size: 100%;
+  background-image: url("assets/Image/vid.png");
+  background-size:50%;
 background-repeat: no-repeat;
+background-position: center;
+}
+.bground-t{
+
 }
 .iframe{
   filter: grayscale(80%)invert(2%)contrast(93%)
@@ -75,6 +79,7 @@ input:focus {
   }
   .img-deactive:hover,.img-deactive:focus{
     filter: grayscale(0%);
+    
   }
 
   .befor{
@@ -147,8 +152,17 @@ input:focus {
     .Web-1366-8 {
       width: 160px;
       height: 160px;
-      margin: 10px 20px 20px 43px;
+     
       padding: 31px 46.4px 35.3px 46px;
+      border-radius: 25px;
+      
+      box-shadow: 0 0 30px 0 rgba(24, 148, 255, 0.16);
+      background-color: #fff;
+    } 
+    .Web-1366-9 {
+    
+    
+      padding: 21px 36.4px 25.3px 36px;
       border-radius: 25px;
       
       box-shadow: 0 0 30px 0 rgba(24, 148, 255, 0.16);
@@ -163,3 +177,20 @@ input:focus {
       border-radius: 10px;
       background-color: #2361b5;
     }
+    .Background {
+  width: 120px;
+  height: 120px;
+ 
+  border-radius: 25px;
+  box-shadow: 0 0 30px 0 rgba(24, 148, 255, 0.16);
+  background-color: #fff;
+}
+.about-slider{
+  width: 160px;
+  height: 160px;
+
+  border-radius: 25px;
+
+  box-shadow: 0 0 30px 0 rgba(24, 148, 255, 0.16);
+  background-color: #fff;
+}

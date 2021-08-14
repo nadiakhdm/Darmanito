@@ -32,12 +32,12 @@ export default function Section_one() {
                             </div>
                             <div className="block lg:p-4 md:p-4 pb-3 px-4">
                                 <h1 className="font-bold text-xs mb-3">آدرس:</h1>
-                                <p className="text-xs leading-relaxed"> لورم   ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت ایپسوم متن ساختگی تولید نامفهوم از صنعت،</p>
+                                <p className="text-xs leading-relaxed"> تهران، طرشت، خیابان شهید چوب تراش، خیابان شهید حسین مردی، بن‌بست پنجم، پلاک 15، واحد 1</p>
                             </div>
                         </div>
                     </div>
                     <div className="mx-auto lg:order-1 md:order-1 order-2 w-full mt-36 lg:mt-0 md:mt-0">
-                        <div className="lg:px-28 md:px-10 px-4">
+                        <div className="lg:px-20 md:px-10 px-4">
 
                             <form action="https://api.web3forms.com/submit" method="POST" id="form ">
                                 <div className="mb-6">

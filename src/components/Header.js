@@ -32,14 +32,14 @@ export default function Header() {
                         <Link to="/" className="flex mx-5">
                             <img className="hidden lg:block h-12 w-auto " src={logo} alt="درمانیتو" />
                             <div className=" mx-3 hidden lg:block">
-                                <p className="font-bold text-lg mb-1">درمانیتو</p>
+                                <p className="font-bold text-lg -mr-0  mb-1">درمانیتو</p>
                                 <p className="lg:text-sm md:text-xs">همراه شما در درمان </p>
                             </div>
                         </Link>
                         <Link to="/" className="flex mx-3">
                             <img className="block lg:hidden h-12 w-auto " src={logo} alt="درمانیتو" />
                             <div className="block lg:hidden mx-3 mt-1">
-                                <p className="font-bold text-sm mb-1">درمانیتو</p>
+                                <p className="font-bold text-sm -mr-0  mb-1">درمانیتو</p>
                                 <p className="text-xs">همراه شما در درمان </p>
                             </div>
                         </Link>
@@ -47,28 +47,28 @@ export default function Header() {
                     </div>
                     <div className="ml-auto lg:flex md:flex sm:hidden hidden">
 
-                        <Link to="#" className=" lg:text-sm md:text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" aria-current="page">صفحه اصلی</Link>
-                        <Link to="#" className=" lg:text-sm md:text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >درباره ما</Link>
-                        <Link to="#" className="lg:text-sm md:text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >تماس با ما</Link>
-                        <Link to="#" className=" lg:text-sm md:text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >عضویت در داروخانه</Link>
+                        <Link to="/" className=" lg:text-sm md:text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" aria-current="page">صفحه اصلی</Link>
+                        <Link to="/aboutus" className=" lg:text-sm md:text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >درباره ما</Link>
+                        <Link to="/contact" className="lg:text-sm md:text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >تماس با ما</Link>
+                        <Link to="/pharmacy" className=" lg:text-sm md:text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >عضویت در داروخانه</Link>
 
 
                     </div>
 
                     <div className="ml-auto lg:flex md:flex sm:hidden hidden">
-                        <Link className="lg:w-36 w-24 lg:text-sm md:text-xs bg-lightithem lg:py-3  md:py-4 rounded-md text-center blue-them transition duration-500 ease-in-out  hover:bg-bluethem transform hover:-translate-1 hover:scale-110">
+                        <Link className="lg:w-36 w-24 lg:text-sm md:text-xs bg-lightithem lg:py-4  md:py-4 rounded-md text-center blue-them transition duration-500 ease-in-out  hover:bg-bluethem transform hover:-translate-1 hover:scale-110">
                             دانلود درمانیتو
-                       </Link>
+                        </Link>
 
                     </div>
                 </div>
                 {show ? <div className="animate__animated animate__fadeIn w-full transition ease-in-out duration-700" id="mobile-menu">
                     <div className="px-8 py-4">
 
-                    <Link to="#" className="block text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" aria-current="page">صفحه اصلی</Link>
-                        <Link to="#" className="block text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >درباره ما</Link>
-                        <Link to="#" className="block text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >تماس با ما</Link>
-                        <Link to="#" className="block text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >عضویت در داروخانه</Link>
+                        <Link to="/" className="block text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" aria-current="page">صفحه اصلی</Link>
+                        <Link to="/aboutus" className="block text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >درباره ما</Link>
+                        <Link to="/contact" className="block text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >تماس با ما</Link>
+                        <Link to="/pharmacy" className="block text-xs lg:my-4  lg:mx-6 m-4 transition ease-in-out duration-700 rounded text-gray-700 pr-1  border-r-4 border-transparent  hover:border-blue-500  hover:text-blue-400" >عضویت در داروخانه</Link>
 
                     </div>
                 </div> : ""}

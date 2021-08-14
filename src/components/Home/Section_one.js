@@ -15,7 +15,7 @@ export default function Section_one() {
                     <div className="lg:flex md:flex block lg:px-1 md:px-12 px-1">
                         <div className='wow animate__animated animate__fadeInUp lg:order-1 md:order-1 order-2 lg:hidden md:hidden block mx-auto'>  <img src={doctor_two_color} className="mx-auto" /></div >
                         <div className='wow animate__animated animate__fadeInUp lg:order-1 md:order-1 order-2 lg:block md:block hidden'>  <img src={img1} /></div >
-                        <div className="m-24 lg:m-32  wow animate__animated  animate__fadeInDown mx-auto">
+                        <div className="m-24 lg:m-36  wow animate__animated  animate__fadeInDown mx-auto">
                             <h3 className="mt-12 text-blue-400 font-bold lg:text-4xl md:text-3xl  text-xl lg:text-right text-center">اپلیکیشن درمانیتو</h3>
                             <h5 className="my-8 lg:text-lg md:text-lg text-sm lg:text-right text-gray-700 text-center">درمانیتو سامانه هوشمند سلامت</h5>
                             <div className="lg:flex md:flex block lg:space-s-4 md:space-s-4 ">
